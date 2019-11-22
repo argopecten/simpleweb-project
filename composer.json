@@ -1,11 +1,11 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "argopecten/simpleweb-project",
+    "description": "Simpleweb project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
+            "name": "Argopecten",
             "role": ""
         }
     ],
@@ -22,13 +22,13 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
-        "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
+        "drush/drush": "^9.0.0",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
