@@ -30,7 +30,7 @@
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.0",
-        "argopecten/simpleweb": "1.0.0-alpha2+8.7@dev"
+        "argopecten/simpleweb": "1.0.0+8.7"
     },
     "require-dev": {
         "drush/drush": "^9.0.0",
