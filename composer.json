@@ -61,12 +61,11 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "@remove-builtin-profiles.sh"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "@remove-builtin-profiles.sh"        ]
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
