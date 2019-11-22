@@ -51,6 +51,9 @@
         "files": ["load.environment.php"]
     },
     "scripts": {
+        "remove-builtin-profiles.sh": [
+            "bash scripts/bash/remove-builtin-profiles.sh"
+        ],
         "pre-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
@@ -61,8 +64,8 @@
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "@remove-builtin-profiles.sh"        ]
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
