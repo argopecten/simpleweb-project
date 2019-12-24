@@ -24,3 +24,7 @@ When installing the given `composer.json` of this template, some tasks are taken
 * Modules (packages of type `drupal-module`) will be placed in `web/sites/all/modules/contrib/`
 * Theme (packages of type `drupal-module`) will be placed in `web/sites/all/themes/contrib/`
 * Latest version of drush is installed locally for use at `vendor/bin/drush`.
+* Latest version of DrupalConsole is installed locally for use at `vendor/bin/drupal`.
+* Creates environment variables based on your .env file. See [.env.example](.env.example).
+
+The project [drupal/core-composer-scaffold](https://github.com/drupal/core-composer-scaffold) is used to ensure that your scaffold files are updated every time drupal/core is updated.
