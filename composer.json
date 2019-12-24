@@ -83,6 +83,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drush/commands": {
+                "Correct D8 compare platforms": "https://www.drupal.org/files/issues/2019-10-23/d8_packages-%233089790-comment_%232.patch"
+            }
         }
     }
 }
