@@ -85,8 +85,8 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
-            "drush/commands": {
-                "Correct D8 compare platforms": "https://www.drupal.org/files/issues/2019-10-23/d8_packages-%233089790-comment_%232.patch"
+            "drupal/drupal8_custom_theme": {
+                "Add link to slider": "https://www.drupal.org/files/issues/2019-12-25/add_link_to_slider-3002450-2.patch"
             }
         }
     }
