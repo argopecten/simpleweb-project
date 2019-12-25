@@ -83,6 +83,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/drupal8_custom_theme": {
+                "Add link to slider": "https://www.drupal.org/files/issues/2019-12-25/add_link_to_slider-3002450-2.patch"
+            }
         }
     }
-}
+}  
